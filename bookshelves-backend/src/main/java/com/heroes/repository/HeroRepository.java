@@ -12,3 +12,11 @@ public interface HeroRepository extends CrudRepository<Hero, Integer> {
 
 
 }
+
+//public interface ImageRepository extends JpaRepository<Image, Integer> {
+//
+//	Optional<Image> findByName(String name);
+//	
+//	Optional<List<Image>> findAllByHero(Hero hero);
+//	
+//}

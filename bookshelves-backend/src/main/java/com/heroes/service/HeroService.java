@@ -9,7 +9,7 @@ import com.heroes.dto.HeroDTO;
 import com.heroes.dto.ImageDTO;
 import com.heroes.entity.Image;
 
-public interface HeroService {
+public interface BookService {
 	
 	List<HeroDTO> getHeroes();
 	
